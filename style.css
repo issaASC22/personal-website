@@ -1,6 +1,6 @@
 div {
     font-family: Georgia;
-    color: white;
+    color: black;
     font-size: 32px;
     padding: 5px;
  }
@@ -10,6 +10,10 @@ div {
     padding: 5px;
     display: flex;
     justify-content: space-around;
+ }
+
+ body{
+    background-color: #F5CBA7
  }
   
  img {
@@ -26,4 +30,21 @@ div {
     text-align: center;
     text-decoration: none;
  }
+
+ img {
+    width: 55%;
+ }
  
+ .img_box{
+    display: flex;
+    flex-direction: row
+ }
+
+h2 {
+    font-size: 20px;
+    padding: 10px;
+ }
+
+ .img1 {
+    width: 50%
+ }
